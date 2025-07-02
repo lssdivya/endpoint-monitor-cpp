@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MonitorWindow</class>
+ <widget class="QWidget" name="MonitorWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MonitorWindow</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLineEdit" name="lineEdit"/>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="minimumSize">
+      <size>
+       <width>778</width>
+       <height>0</height>
+      </size>
+     </property>
+     <column>
+      <property name="text">
+       <string>Memory Usage</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>CPU Usage</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Warning Messages</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Terminate Process</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
